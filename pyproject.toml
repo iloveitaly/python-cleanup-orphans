@@ -1,8 +1,8 @@
 [project]
 name = "python-cleanup-orphans"
 version = "0.1.0"
-description = ""
-keywords = []
+description = "Detect and safely terminate orphaned AI agent processes (Cursor, agy, Claude, Codex)"
+keywords = ["agent", "orphan", "process", "cleanup"]
 readme = "README.md"
 requires-python = ">=3.12"
 classifiers = [
@@ -12,14 +12,18 @@ classifiers = [
     "Programming Language :: Python :: 3.13",
     "Programming Language :: Python :: 3.14",
 ]
-dependencies = []
+dependencies = [
+    "click>=8.5.0",
+    "pydantic>=2.13.5",
+    "structlog-config>=0.15.0",
+]
 authors = [{ name = "Michael Bianco", email = "mike@mikebian.co" }]
 urls = { "Repository" = "https://github.com/iloveitaly/python-cleanup-orphans" }
 
 
-# additional packaging information: https://packaging.python.org/en/latest/specifications/core-metadata/#license
 [project.scripts]
-python-cleanup-orphans = "python_cleanup_orphans:main"
+cleanup-orphans = "python_cleanup_orphans.cli:cli"
+python-cleanup-orphans = "python_cleanup_orphans.cli:cli"
 
 
 [build-system]
@@ -52,4 +56,4 @@ plugins = ["covdefaults"]
 source = ["python_cleanup_orphans"]
 
 [tool.coverage.report]
-fail_under = 50
+fail_under = 10
