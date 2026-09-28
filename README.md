@@ -1,6 +1,6 @@
-[![Release Notes](https://img.shields.io/github/release/iloveitaly/python-cleanup-orphans)](https://github.com/iloveitaly/python-cleanup-orphans/releases)
+[![Release Notes](https://img.shields.io/github/release/iloveitaly/cleanup-orphans)](https://github.com/iloveitaly/cleanup-orphans/releases)
 [![Downloads](https://static.pepy.tech/badge/cleanup-orphans/month)](https://pepy.tech/project/cleanup-orphans)
-![GitHub CI Status](https://github.com/iloveitaly/python-cleanup-orphans/actions/workflows/build_and_publish.yml/badge.svg)
+![GitHub CI Status](https://github.com/iloveitaly/cleanup-orphans/actions/workflows/build_and_publish.yml/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # Clean Up Orphaned AI Agent Processes
