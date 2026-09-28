@@ -1,5 +1,5 @@
 [project]
-name = "python-cleanup-orphans"
+name = "cleanup-orphans"
 version = "0.1.0"
 description = "Detect and safely terminate orphaned AI agent processes (Cursor, agy, Claude, Codex)"
 keywords = ["agent", "orphan", "process", "cleanup"]
@@ -22,8 +22,8 @@ urls = { "Repository" = "https://github.com/iloveitaly/python-cleanup-orphans" }
 
 
 [project.scripts]
-cleanup-orphans = "python_cleanup_orphans.cli:cli"
-python-cleanup-orphans = "python_cleanup_orphans.cli:cli"
+cleanup-orphans = "cleanup_orphans.cli:cli"
+python-cleanup-orphans = "cleanup_orphans.cli:cli"
 
 
 [build-system]
@@ -53,7 +53,7 @@ addopts = "--cov --cov-report=term-missing --cov-report=html:tmp/htmlcov"
 
 [tool.coverage.run]
 plugins = ["covdefaults"]
-source = ["python_cleanup_orphans"]
+source = ["cleanup_orphans"]
 
 [tool.coverage.report]
 fail_under = 10

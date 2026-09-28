@@ -1,6 +1,6 @@
 """Tests for orphan process candidate detection."""
 
-from python_cleanup_orphans.scanner import (
+from cleanup_orphans.scanner import (
     Candidate,
     RawProcess,
     _check_agy,

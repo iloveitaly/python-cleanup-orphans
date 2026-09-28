@@ -1,4 +1,4 @@
-"""Version handling for python-cleanup-orphans."""
+"""Version handling for cleanup-orphans."""
 
 import importlib.metadata
 from pathlib import Path
@@ -17,7 +17,7 @@ def get_version() -> str:
     """Get the version string, appending .dev if running from source."""
     try:
         # Try to get the version of the installed package
-        version = importlib.metadata.version("python-cleanup-orphans")
+        version = importlib.metadata.version("cleanup-orphans")
     except importlib.metadata.PackageNotFoundError:
         # Fallback for local development if not installed
         version = "0.1.0"

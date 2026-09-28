@@ -1,5 +1,5 @@
 [![Release Notes](https://img.shields.io/github/release/iloveitaly/python-cleanup-orphans)](https://github.com/iloveitaly/python-cleanup-orphans/releases)
-[![Downloads](https://static.pepy.tech/badge/python-cleanup-orphans/month)](https://pepy.tech/project/python-cleanup-orphans)
+[![Downloads](https://static.pepy.tech/badge/cleanup-orphans/month)](https://pepy.tech/project/cleanup-orphans)
 ![GitHub CI Status](https://github.com/iloveitaly/python-cleanup-orphans/actions/workflows/build_and_publish.yml/badge.svg)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -10,13 +10,13 @@ I run AI coding tools all day—Cursor, agy, Claude, Codex—and they inevitably
 ## Installation
 
 ```bash
-uv tool install python-cleanup-orphans
+uv tool install cleanup-orphans
 ```
 
 Or add to an existing project:
 
 ```bash
-uv add python-cleanup-orphans
+uv add cleanup-orphans
 ```
 
 ## Usage

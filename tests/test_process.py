@@ -1,6 +1,6 @@
 """Tests for process parsing and formatting helpers."""
 
-from python_cleanup_orphans.process import (
+from cleanup_orphans.process import (
     format_cpu,
     format_elapsed,
     parse_cpu_minutes,
