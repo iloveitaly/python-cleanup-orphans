@@ -1,6 +1,6 @@
 [project]
 name = "cleanup-orphans"
-version = "0.1.0"
+version = "0.1.1"
 description = "Detect and safely terminate orphaned AI agent processes (Cursor, agy, Claude, Codex)"
 keywords = ["agent", "orphan", "process", "cleanup"]
 readme = "README.md"
