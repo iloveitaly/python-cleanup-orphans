@@ -18,7 +18,7 @@ dependencies = [
     "structlog-config>=0.15.0",
 ]
 authors = [{ name = "Michael Bianco", email = "mike@mikebian.co" }]
-urls = { "Repository" = "https://github.com/iloveitaly/cleanup-orphans" }
+urls = { "Repository" = "https://github.com/iloveitaly/python-cleanup-orphans" }
 
 
 [project.scripts]
